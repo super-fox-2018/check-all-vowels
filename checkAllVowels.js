@@ -9,8 +9,6 @@ function checkVowels(str){
       for(var k = 0; k < arr.length; k++){
         if(str[i] === arr[k]){
           count++;
-          // console.log(arr[k]);
-          // console.log(str[i]);
         }
       }
     }
